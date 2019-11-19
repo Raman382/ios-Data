@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AlertView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FX9-j6-kM1">
+                                <rect key="frame" x="154" y="417.5" width="106" height="61"/>
+                                <color key="backgroundColor" red="0.064185976620000001" green="0.61844194870000002" blue="0.99965363740000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <state key="normal" title="Alert2">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnShowAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hKM-rH-alm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPq-03-c9C">
+                                <rect key="frame" x="153.5" y="518.5" width="107" height="61"/>
+                                <color key="backgroundColor" red="0.064185976620000001" green="0.61844194870000002" blue="0.99965363740000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <state key="normal" title="Alert3">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="buq-aN-F0d"/>
+                                    <action selector="btnShowAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VIQ-3A-AKJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6z-F9-hw2">
+                                <rect key="frame" x="156.5" y="316.5" width="101" height="61"/>
+                                <color key="backgroundColor" red="0.064185976620000001" green="0.61844194870000002" blue="0.99965363740000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <state key="normal" title="Alert1">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vOJ-yy-H51"/>
+                                    <action selector="btnShowAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kU1-db-qbW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74O-w9-3YY">
+                                <rect key="frame" x="153.5" y="619.5" width="107" height="61"/>
+                                <color key="backgroundColor" red="0.064185976620000001" green="0.61844194870000002" blue="0.99965363740000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <state key="normal" title="Alert4">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnAlert4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Adp-QW-N5i"/>
+                                    <action selector="btnAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KDT-Hv-hPA"/>
+                                    <action selector="btnShowAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QNm-c6-UmQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99965363740000002" green="0.73825937279999998" blue="0.4814352549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="74O-w9-3YY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1g7-ob-X0D"/>
+                            <constraint firstItem="74O-w9-3YY" firstAttribute="top" secondItem="sPq-03-c9C" secondAttribute="bottom" constant="40" id="3Aq-x0-zN6"/>
+                            <constraint firstItem="sPq-03-c9C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4vU-ld-7ov"/>
+                            <constraint firstItem="FX9-j6-kM1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UQv-IK-Q3B"/>
+                            <constraint firstItem="sPq-03-c9C" firstAttribute="top" secondItem="FX9-j6-kM1" secondAttribute="bottom" constant="40" id="Y3x-jP-2kv"/>
+                            <constraint firstItem="K6z-F9-hw2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cQ2-GA-CHj"/>
+                            <constraint firstItem="FX9-j6-kM1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gmR-5G-vZ7"/>
+                            <constraint firstItem="FX9-j6-kM1" firstAttribute="top" secondItem="K6z-F9-hw2" secondAttribute="bottom" constant="40" id="rbU-Wb-R94"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-65.217391304347828" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+</document>
