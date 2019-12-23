@@ -1,0 +1,16 @@
+PODS:
+  - FaveButton (3.2.0)
+
+DEPENDENCIES:
+  - FaveButton
+
+SPEC REPOS:
+  trunk:
+    - FaveButton
+
+SPEC CHECKSUMS:
+  FaveButton: c818ab3d04d22a7615e93f08c7b35932acb3f735
+
+PODFILE CHECKSUM: d89756312f087f8889f51563fa58d74e73953b12
+
+COCOAPODS: 1.8.4

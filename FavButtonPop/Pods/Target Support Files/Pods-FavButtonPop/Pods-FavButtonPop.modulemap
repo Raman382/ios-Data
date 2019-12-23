@@ -1,0 +1,6 @@
+framework module Pods_FavButtonPop {
+  umbrella header "Pods-FavButtonPop-umbrella.h"
+
+  export *
+  module * { export * }
+}
